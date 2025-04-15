@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://your-image-link.com/banner.png" alt="ExchangeTales Banner" width="100%">
+  <img src="https://via.placeholder.com/1200x300/5C899D/ffffff?text=ExchangeTales:+Read,+Exchange,+Repeat" alt="ExchangeTales Banner" style="border-radius: 12px;" />
 </p>
 
 <h1 align="center">📚 ExchangeTales</h1>
@@ -15,30 +15,38 @@
 
 ---
 
-## 💡 About ExchangeTales
+<div align="center">
+  <img src="https://via.placeholder.com/900x1/5C899D/5C899D" />
+</div>
 
-**ExchangeTales** is a community-driven platform where book lovers can connect, exchange, and spread the joy of reading. Whether you're looking to donate books, find second-hand gems, or meet readers near you — this app is your story hub.
+## 🎯 What is ExchangeTales?
 
-> 📖 “Stories are meant to be shared, not shelved.”
+> ExchangeTales is your ultimate book community app built for modern bibliophiles.  
+> Share books, chat with resellers, find nearby bookstores, or donate to NGOs.  
+> **Make reading social, sustainable, and seamless.**
 
 ---
 
-## 🎯 Key Features
+<div align="center">
+  <img src="https://via.placeholder.com/900x1/FFCEEF/FFCEEF" />
+</div>
 
-| 🚀 Feature | 🛠️ Description |
+## 🔥 Core Features
+
+| 🌟 Feature | 💬 Description |
 |-----------|----------------|
-| 📚 **Book Resellers Section** | Explore nearby resellers and discover second-hand or rare books. |
-| 💬 **Chat with Resellers** | Real-time conversations to negotiate or inquire about a book. |
-| 🌍 **Explore Books** | Discover books up for exchange, donation, or sale near your location. |
-| 📌 **Nearby Bookstore Locator** | Find physical bookstores with book availability using Google Maps API. |
+| 📚 **Book Resellers Section** | Browse books from verified resellers near you. |
+| 💬 **Chat with Resellers** | Talk directly using real-time messaging. |
+| 🧭 **Explore Nearby Books** | Search or discover books available in your area. |
+| 📍 **Nearby Bookstore Availability** | Use Google Maps API to check bookstore inventory near you. |
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Tech Stack
 
 ```yaml
-Frontend:  Flutter (Netflix-inspired UI, Jetpack Compose-like architecture)
-Backend:   Spring Boot (REST APIs & secure endpoints)
+Frontend:  Flutter (Netflix-inspired design + Jetpack Compose UI)
+Backend:   Spring Boot (REST APIs)
 Database:  MySQL via JDBC
-Auth & Chat: Firebase (Authentication, Real-time Messaging, Storage)
-Maps API:   Google Maps for location-based bookstore tracking
+Realtime:  Firebase (Authentication, Chat, Storage)
+Location:  Google Maps API
