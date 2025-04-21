@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Exchange Tales</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #343a40;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    background: #495057;
+    border-radius: 5px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    background: #6c757d;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.profile-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.profile-card img {
+    width: 123px;
+    height: 131px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.profile-card h2 {
+    margin: 10px 0;
+    color: #343a40;
+}
+
+.profile-card p {
+    color: #666;
+}
+
+.profile-card button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.profile-card button:hover {
+    background: #0056b3;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="exchangetales.html">Home</a></li>
+                <li><a href="#">Exchange</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="profile-container">
+        <div class="profile-card">
+            <img src="img1.jpg" alt="User Profile Picture">
+
+            <h2>Dhruv Singhal</h2>
+            <p>Email: dhruvsinghal0711@gmail.com</p>
+            <p>Member since: 2025</p>
+            <a href="editpage.html"><button>Edit Profile</button></a>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Exchange Tales</p>
+    </footer>
+</body>
+</html>
